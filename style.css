@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    
+}
+
+.Yugioh-card img{
+    width: 216px;
+    height: 360px;
+    margin-top: 200px;
+    margin: 35px;
+}
+
+#Back {
+    width: 216px;
+    height: 360px;
+    margin-top: 200px;
+}
+
+#Open {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#View {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#YDK {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+
