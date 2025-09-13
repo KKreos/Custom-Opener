@@ -29,13 +29,13 @@ function openPack() {
     
     for (let i =0; i < 6; i++) {    
         /*
-            <div class="Yugioh-card">
+            <span class="Yugioh-card">
                 <img id="0" src="./Custom-Pack-YGO-1/LPGD- (5).jpg">
-            </div>
+            </span>
             
         */
-        let cardDiv = document.createElement("div");
-        cardDiv.classList.add("Yugioh-card");
+        let cardSpan = document.createElement("span");
+        cardSpan.classList.add("Yugioh-card");
 
         let cardImg = document.createElement("img");
         cardImg.id = i;
@@ -52,7 +52,7 @@ function openPack() {
      
         cardImg.src = "./Custom-Pack-YGO-1/LPGD- (" + num.toString() + ").jpg";
 
-        cardDiv.appendChild(cardImg);
-        document.getElementById("YGO-cards-opened").appendChild(cardDiv);
+        cardSpan.appendChild(cardImg);
+        document.getElementById("YGO-cards-opened").appendChild(cardSpan);
     }
 }
